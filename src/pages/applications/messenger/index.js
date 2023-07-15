@@ -1,16 +1,7 @@
+import Head from 'next/head';
 import { useState } from 'react';
 import { useColorModeValue } from '@chakra-ui/react';
-import Head from 'next/head';
 // import SidebarLayout from 'src/layouts/SidebarLayout';
-
-import TopBarContent from '../../../components/Applications/Messenger/TopBarContent';
-import BottomBarContent from '../../../components/Applications/Messenger/BottomBarContent';
-import SidebarContent from '../../../components/Applications/Messenger/SidebarContent';
-import ChatContent from '../../../components/Applications/Messenger/ChatContent';
-import MenuTwoToneIcon from '@mui/icons-material/MenuTwoTone';
-
-import Scrollbar from '../../../components/Scrollbar copy';
-
 import {
   Box,
   styled,
@@ -19,6 +10,15 @@ import {
   IconButton,
   useTheme
 } from '@mui/material';
+
+import Scrollbar from '../../../components/Scrollbarzz'
+
+import SidebarContent from '../../../components/Applications/Messenger/SidebarContent';
+import MenuTwoToneIcon from '@mui/icons-material/MenuTwoTone';
+import TopBarContent from '../../../components/Applications/Messenger/TopBarContent';
+import ChatContent from '../../../components/Applications/Messenger/ChatContent';
+import BottomBarContent from '../../../components/Applications/Messenger/BottomBarContent';
+
 
 const RootWrapper = styled(Box)(
   () => `

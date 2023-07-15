@@ -15,13 +15,13 @@ import MainDashboard from 'pages/admin/default'
 import Info from 'pages/admin/info'
 import Profile from 'pages/admin/profile'
 import Calender from 'pages/admin/calender'
-import Ebook from 'pages/admin/'
+import Ebook from 'pages/admin/e-book'
 import DataTables from 'pages/admin/data-tables'
 import RTL from 'pages/rtl/rtl-default'
+import Chat from 'pages/admin/chat'
 
 // Auth Imports
 import SignInCentered from 'pages/auth/sign-in'
-import Chat from 'pages/admin/chat'
 
 const routes = [
   {

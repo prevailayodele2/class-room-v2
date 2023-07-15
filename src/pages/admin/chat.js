@@ -1,18 +1,16 @@
-import { Box } from '@chakra-ui/react';
-import AdminLayout from 'layouts/admin';
-import ApplicationsMessenger from 'pages/applications/messenger';
 import ThemeProvider from '../../theme/ThemeProvider'
+import AdminLayout from 'layouts/admin';
+import { Box } from '@chakra-ui/react';
+import ApplicationsMessenger from 'pages/applications/messenger';
 
-const Chat = () => {
+export default function Chat () {
   return (
     <AdminLayout>
-      <Box pt={{ base: '130px', md: '80px', xl: '80px' }}>
       <ThemeProvider>
-        <ApplicationsMessenger />
-      </ThemeProvider>
-      </Box>
-    </AdminLayout>
+          <Box pt={{ base: '130px', md: '80px', xl: '80px' }}>
+            <ApplicationsMessenger />
+          </Box>
+      </ThemeProvider></AdminLayout>
   );
 };
 
-export default Chat;

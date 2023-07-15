@@ -17,7 +17,7 @@ import {
 } from "@mui/material";
 
 
-const Calender = () => {
+export default function Calender  () {
     const [currentEvents, setCurrentEvents] = useState([]);
 
     const boxBg = useColorModeValue("#E0E5F2", "#0b1437");
@@ -131,5 +131,3 @@ const Calender = () => {
         </>
     );
 }
-
-export default Calender;
