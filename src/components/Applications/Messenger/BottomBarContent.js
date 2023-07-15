@@ -24,7 +24,7 @@ const Input = styled('input')({
   display: 'none'
 });
 
-function BottomBarContent() {
+export default function BottomBarContent() {
   const theme = useTheme();
 
   const user = {
@@ -78,4 +78,3 @@ function BottomBarContent() {
   );
 }
 
-export default BottomBarContent;

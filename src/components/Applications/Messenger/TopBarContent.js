@@ -84,7 +84,7 @@ const AccordionSummaryWrapper = styled(AccordionSummary)(
 `
 );
 
-function TopBarContent() {
+export default function TopBarContent() {
   const theme = useTheme();
 
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -341,4 +341,3 @@ function TopBarContent() {
   );
 }
 
-export default TopBarContent;

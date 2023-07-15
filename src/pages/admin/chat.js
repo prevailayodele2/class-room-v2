@@ -3,7 +3,7 @@ import AdminLayout from 'layouts/admin';
 import { Box } from '@chakra-ui/react';
 import ApplicationsMessenger from 'pages/applications/messenger';
 
-export default function Chat () {
+export default function Chat() {
   return (
     <AdminLayout>
       <ThemeProvider>

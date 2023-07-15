@@ -93,7 +93,7 @@ const TabsContainerWrapper = styled(Box)(
   `
 );
 
-function SidebarContent() {
+export default function SidebarContent() {
   const user = {
     name: 'Catherine Pike',
     avatar: '/static/images/avatars/1.jpg',
@@ -531,4 +531,3 @@ function SidebarContent() {
   );
 }
 
-export default SidebarContent;

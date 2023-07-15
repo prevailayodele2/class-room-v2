@@ -3,7 +3,7 @@ import { Scrollbars } from 'react-custom-scrollbars-2';
 
 import { Box, useTheme } from '@mui/material';
 
-const Scrollbar = ({ className, children, ...rest }) => {
+export default function Scrollbar({ className, children, ...rest }) {
   const theme = useTheme();
 
   return (
@@ -38,4 +38,3 @@ Scrollbar.propTypes = {
   className: PropTypes.string
 };
 
-export default Scrollbar;

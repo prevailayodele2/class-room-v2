@@ -11,7 +11,7 @@ import {
 import Card  from 'components/card/Card';
 import ThemeProvider from '../../../../theme/ThemeProvider'
 
-const Recents = (props) => {
+export default function Recents(props) {
   
   const brandColor = useColorModeValue('brand.500', 'white')
   const boxBg = useColorModeValue('secondaryGray.300', 'whiteAlpha.100')
@@ -121,7 +121,6 @@ const Recents = (props) => {
   );
 };
 
-export default Recents;
 
 
 

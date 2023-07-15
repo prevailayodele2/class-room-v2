@@ -45,7 +45,7 @@ const CardWrapperSecondary = styled(Card)(
 `
 );
 
-function ChatContent() {
+export default function ChatContent() {
   const user = {
     name: 'Catherine Pike',
     avatar: '/static/images/avatars/1.jpg'
@@ -317,4 +317,3 @@ function ChatContent() {
   );
 }
 
-export default ChatContent;
