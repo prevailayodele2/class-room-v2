@@ -95,7 +95,7 @@ export default function ApplicationsMessenger() {
         <DrawerWrapperMobile
           sx={{
             display: { lg: 'none', xs: 'inline-block' },
-            backgroundColor: boxBg
+            background: useColorModeValue("#fff", 'secondaryGray.900')
           }}
           variant="temporary"
           anchor={theme.direction === 'rtl' ? 'right' : 'left'}
