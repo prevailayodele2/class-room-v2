@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import Head from 'next/head';
 import { useState } from 'react';
 import { useColorModeValue } from '@chakra-ui/react';
+=======
+import { useColorModeValue } from '@chakra-ui/react';
+import { useState } from 'react';
+import Head from 'next/head';
+>>>>>>> 67a2fd9db0405205f6386f720a6b0c1f0b6a4522
 // import SidebarLayout from 'src/layouts/SidebarLayout';
 import {
   Box,

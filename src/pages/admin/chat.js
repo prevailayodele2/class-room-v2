@@ -10,7 +10,8 @@ export default function Chat () {
           <Box pt={{ base: '130px', md: '80px', xl: '80px' }}>
             <ApplicationsMessenger />
           </Box>
-      </ThemeProvider></AdminLayout>
+      </ThemeProvider>
+      </AdminLayout>
   );
 };
 
