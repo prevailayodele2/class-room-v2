@@ -1,5 +1,6 @@
 
 import Head from 'next/head';
+import ThemeProvider from '../../../theme/ThemeProvider'
 import { useState } from 'react';
 import { useColorModeValue } from '@chakra-ui/react';
 // import SidebarLayout from 'src/layouts/SidebarLayout';
@@ -86,6 +87,7 @@ export default function ApplicationsMessenger() {
 
   return (
     <>
+    <ThemeProvider>
       <Head>
         <title>Messenger - Applications</title>
       </Head>
@@ -142,6 +144,7 @@ export default function ApplicationsMessenger() {
           <BottomBarContent />
         </ChatWindow>
       </RootWrapper>
+      </ThemeProvider>
     </>
   );
 }
