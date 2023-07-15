@@ -11,9 +11,6 @@ yarn.lock
 # testing
 /coverage
 
-# production
-/build
-build
 
 # misc
 .DS_Store
@@ -31,9 +28,6 @@ yarn-error.log*
 # nextjs
 /.next/
 /out/
-
-# vercel
-.vercel
 
 # typescript
 *.tsbuildinfo
